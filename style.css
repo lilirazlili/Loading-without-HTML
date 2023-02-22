@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(20, 20, 20);
+}
+
+.root {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text {
+  font-size: 1.5em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 15px;
+  color: #87f8e3;
+}
+
+.container {
+  width: 50vw;
+  height: 30px;
+  border: 1px solid #87f8e3;
+  border-radius: 3px;
+}
+
+.load {
+  width: 0;
+  background-color: #87f8e3;
+  height: 100%;
+  transition: width 0.2s linear;
+}
